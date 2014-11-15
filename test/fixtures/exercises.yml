@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trainee_id: 1
+  name: MyString
+  reps: 1
+  rep_weight: 1.5
+  sets: 1
+
+two:
+  trainee_id: 1
+  name: MyString
+  reps: 1
+  rep_weight: 1.5
+  sets: 1

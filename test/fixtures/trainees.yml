@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trainer_id: 1
+  name: MyString
+  height: MyString
+  weight: 1.5
+  bio: MyText
+
+two:
+  trainer_id: 1
+  name: MyString
+  height: MyString
+  weight: 1.5
+  bio: MyText
