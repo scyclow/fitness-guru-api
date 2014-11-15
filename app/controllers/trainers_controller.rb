@@ -18,7 +18,12 @@ class TrainersController < ApplicationController
   # POST /trainers
   # POST /trainers.json
   def create
+    p'*'*800
+    p params
+
     @trainer = Trainer.new(trainer_params)
+
+    p @trainer
 
     if @trainer.save
       render json: @trainer, status: :created, location: @trainer
@@ -51,6 +56,6 @@ class TrainersController < ApplicationController
   private
     
     def trainer_params
-      params[:trainer]
+      params.require(:trainer).permit(:name)
     end
 end
